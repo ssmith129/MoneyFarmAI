@@ -2,9 +2,12 @@
   "name": "moneyfarm-webflow-template",
   "version": "1.0.0",
   "description": "MoneyFarm - Webflow HTML Website Template",
-  "main": "index.html",
+  "type": "module",
+  "main": "src/main.jsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": ["webflow", "template", "dashboard", "finance"],
   "author": "",
